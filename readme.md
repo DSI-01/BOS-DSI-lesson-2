@@ -2,8 +2,8 @@
 title: Intro to Git
 duration: "1:5"
 creator:
-    name: Lucy Williams
-    city: DC
+    name: Jason Weeks
+    city: Boston!
 ---
 
 
@@ -33,7 +33,7 @@ Week 1 | Lesson 1.2
 | 15 min  | [Demo](#demo1)  | Let's use Git  |
 | 15 min  | [Demo](#demo2)  | Making and cloning repositories  |
 | 10 min  | [Demo](#demo3)  | Create a pull request on GitHub  |
-| 25 min  | [Independent Practice](#ind-practice)  
+| 25 min  | [Independent Practice](#ind-practice)
 | 5 min  | [Conclusion](#conclusion)
 
 ---
@@ -95,7 +95,7 @@ Even though there are lots of commands, on the course we will really only need a
 ## Let's use Git - Demo (15 mins)
 
 First, create and navigate into a new directory on your Home directory:
-  		  
+
 ```bash
 $ cd ~
 $ mkdir DSI-projects
@@ -200,7 +200,7 @@ git log
 ```
 
 You should see something similar to:
-  		  
+
 ```bash
 commit ec1b1ebad5927e74d498ee588190686c51cab446
 Author: <author>
@@ -290,7 +290,7 @@ Now that everyone has their first repository on GitHub, let's fork and clone a r
 
 Forking gives you a copy of an existing repository -- you can make any changes you want without affecting the original. (You can also propose that the maintainer of the original merge your changes!).
 
-Cloning gives you a local copy of a remote repository. 
+Cloning gives you a local copy of a remote repository.
 
 Let's fork and then clone our DSI course repo, which includes all the specifications for your projects.
 
@@ -366,8 +366,7 @@ comfortable!
 ## Bonus Challenges
 _These challenges are optional!_
 
-Once you've mastered the basics, try furthering your understanding of Git by: 
+Once you've mastered the basics, try furthering your understanding of Git by:
 
 - Diving into the book ["Pro Git"](https://git-scm.com/book/en/v2).
 - Considering best practices for Git commit messages by reading [this post](http://chris.beams.io/posts/git-commit/).
-
